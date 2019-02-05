@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+			 package="com.vorta1.app"
+			 android:versionCode="1"
+			 android:versionName="1.0"
+			 android:installLocation="auto">
+
+	<application android:label="@string/app_name"
+					 android:debuggable="true"
+					 android:hardwareAccelerated="true" >
+
+		<activity android:name="App"
+					 android:label="@string/app_name"
+					 android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+					 android:configChanges="orientation|keyboardHidden"
+					 android:stateNotNeeded="true"
+					 android:launchMode="singleInstance"
+					 android:clearTaskOnLaunch="true">
+
+		</activity>
+
+	</application>
+
+</manifest>
